@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Открываем порт (если API работает на 3000)
-EXPOSE 3000
+EXPOSE 3011
 
 # Команда для запуска приложения
 CMD ["node", "app.js"]
