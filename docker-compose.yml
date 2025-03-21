@@ -4,6 +4,6 @@ services:
   tarotcardapi:
     build: .
     ports:
-      - "3000:3000"
+      - "3011:3011"
     environment:
       - NODE_ENV=production
