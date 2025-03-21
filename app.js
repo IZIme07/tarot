@@ -5,7 +5,7 @@ const errorHandler = require("./middlewares/errorHandler"); // Import error hand
 
 dotenv.config();
 const app = express();
-const port = process.env.PORT || 3000; // Use a default port if PORT environment variable is not defined
+const port = process.env.PORT || 3011; // Use a default port if PORT environment variable is not defined
 
 app.use(express.json());
 
